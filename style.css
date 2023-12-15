@@ -4,42 +4,45 @@ body, h1, h2, h3, p, ul, ol, li {
     padding: 0;
 }
 
-/* Set a baseline font size and family */
+/* Set a cute pink background color for the body */
 body {
-    font-size: 16px;
-    font-family: Arial, sans-serif;
+    background-color: #ffc0cb; /* Light Pink */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Dark Gray */
 }
 
-/* Add your styles below this line */
+/* Add a cute pink header style */
+header {
+    background-color: #ff69b4; /* Hot Pink */
+    color: #fff; /* White */
+    padding: 20px;
+    text-align: center;
+}
 
-/* Example styles for the page container */
+/* Style for the main content area */
 .container {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Example styles for a header */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-
-/* Example styles for a section */
+/* Add a cute pink style for sections */
 section {
+    background-color: #ffe4e1; /* Misty Rose */
+    padding: 20px;
     margin-bottom: 20px;
 }
 
-/* Example styles for a footer */
+/* Add a cute pink style for links */
+a {
+    color: #ff69b4; /* Hot Pink */
+}
+
+/* Style for a cute pink footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ff69b4; /* Hot Pink */
+    color: #fff; /* White */
     padding: 10px;
     text-align: center;
 }
-
-/* Add your specific styles for different elements as needed */
-
 
